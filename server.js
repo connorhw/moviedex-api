@@ -18,7 +18,7 @@ app.get('/movie', handleGetMovies)
 
 //app.use(morgan('common')); // let's see what 'common' format looks like
 //const movies = require('./moviestore.js')
-
+/*
 app.get('/', (req, res) => {
   res
     .status(200)
@@ -31,7 +31,6 @@ app.get('/movie/genre', (req, res) => {
       .send('genre page here')
 })
 
-/*
 app.use((req, res) => {
   res.send('server js is working!')
 })
